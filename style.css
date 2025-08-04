@@ -80,3 +80,16 @@ main {
     background-color: var(--cor-hover-botao);
     transform: scale(1.03);
 }
+
+@media (max-width: 600px) {
+    .foto-perfil {
+        position: static;
+        margin: 20px auto 30px;
+        main {
+            padding-top: 0;
+            .container-principal h1 {
+                font-size:  2em;
+            }
+        }
+    }
+}
