@@ -12,7 +12,6 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    
     background: url('imagens/281223624363fdb3dce3cea688635473.webp') no-repeat center/cover fixed;
 }
 
@@ -81,15 +80,19 @@ main {
     transform: scale(1.03);
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
+
     .foto-perfil {
         position: static;
         margin: 20px auto 30px;
-        main {
-            padding-top: 0;
-            .container-principal h1 {
-                font-size:  2em;
-            }
-        }
+    }
+
+    main {
+        padding-top: 0;
+    }
+
+    .container-principal h1 {
+        font-size: 2em;
     }
 }
